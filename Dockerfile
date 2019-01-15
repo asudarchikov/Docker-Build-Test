@@ -2,6 +2,6 @@ FROM appsvc/dotnetcore
 
 WORKDIR /test
 
-COPY ./myApp/ ./
+COPY ./Hello/ ./
 
-CMD ["dotnet", "myApp.dll"]
+CMD ["dotnet", "Hello.dll"]

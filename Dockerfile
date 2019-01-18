@@ -1,7 +1,7 @@
 FROM appsvc/dotnetcore
 
-WORKDIR /test
+WORKDIR /Hello
 
-COPY ./Hello/ ./
+COPY . ./
 
 CMD ["dotnet", "Hello.dll"]
